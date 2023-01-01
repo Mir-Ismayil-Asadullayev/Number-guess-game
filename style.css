@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: rgb(196, 255, 161);
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+    gap: 50px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+label {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#number {
+    padding: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+#number:focus {
+    box-shadow: 0px 0px 10px 1px;
+}
+
+button {
+    padding: 10px 55px;
+    font-size: 18px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:active {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#output {
+    color: black;
+    padding: 10px 45px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
